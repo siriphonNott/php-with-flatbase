@@ -6,8 +6,6 @@
   "dependencies": {
     "bootstrap": "^4.3.1",
     "font-awesome": "^4.7.0",
-    "gulp-rename": "^1.4.0",
-    "gulp-uglify": "^3.0.2",
     "jquery": "^3.4.1"
   },
   "devDependencies": {
@@ -19,7 +17,9 @@
     "gulp-connect-php": "^1.0.3",
     "gulp-htmlmin": "^5.0.1",
     "gulp-sass": "^4.0.2",
-    "merge-stream": "^2.0.0"
+    "merge-stream": "^2.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify": "^3.0.2"
   },
   "scripts": {
     "start": "gulp dev",
