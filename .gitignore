@@ -1,0 +1,14 @@
+# JS
+node_modules
+
+src/*
+!src/scss
+!src/js
+!src/img
+
+uploads
+dist
+models
+
+# php
+vendor

@@ -1,0 +1,136 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "9a9f229d30baa1b8671a4e950976e989",
+    "packages": [
+        {
+            "name": "flatbase/flatbase",
+            "version": "0.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/adamnicholson/flatbase.git",
+                "reference": "2484a18d3711cf9514367f5dda018532b6f92da2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/adamnicholson/flatbase/zipball/2484a18d3711cf9514367f5dda018532b6f92da2",
+                "reference": "2484a18d3711cf9514367f5dda018532b6f92da2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0",
+                "php-serializer/php-serializer": "0.1.*"
+            },
+            "require-dev": {
+                "devster/ubench": "~1.1",
+                "phpunit/phpunit": "^5",
+                "symfony/console": "~2.6",
+                "symfony/var-dumper": "~2.6"
+            },
+            "suggest": {
+                "symfony/console": "Needed for console support using vendor/bin/flatbase",
+                "symfony/var-dumper": "Needed for console support using vendor/bin/flatbase"
+            },
+            "bin": [
+                "flatbase"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Flatbase\\": [
+                        "src/",
+                        "tests/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Adam Nicholson",
+                    "email": "adamnicholson10@gmail.com"
+                }
+            ],
+            "description": "Standalone queryable flat file database",
+            "time": "2017-07-15T16:16:08+00:00"
+        },
+        {
+            "name": "gargron/fileupload",
+            "version": "v1.5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Gargron/fileupload.git",
+                "reference": "1b7327f62e6d61bd56a3a5dc079af06d084efd39"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Gargron/fileupload/zipball/1b7327f62e6d61bd56a3a5dc079af06d084efd39",
+                "reference": "1b7327f62e6d61bd56a3a5dc079af06d084efd39",
+                "shasum": ""
+            },
+            "require": {
+                "php": "~7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "FileUpload\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "File uploading library capable of handling large/chunked/multiple file uploads",
+            "time": "2019-02-14T10:12:34+00:00"
+        },
+        {
+            "name": "php-serializer/php-serializer",
+            "version": "0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/adamnicholson/php-serializer.git",
+                "reference": "3c0998323a14f3c6baf8a44c2bb2a5497e10e6eb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/adamnicholson/php-serializer/zipball/3c0998323a14f3c6baf8a44c2bb2a5497e10e6eb",
+                "reference": "3c0998323a14f3c6baf8a44c2bb2a5497e10e6eb",
+                "shasum": ""
+            },
+            "require-dev": {
+                "devster/ubench": "~1.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PHPSerializer\\": [
+                        "src/",
+                        "tests/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Adam Nicholson",
+                    "email": "adamnicholson10@gmail.com"
+                }
+            ],
+            "time": "2015-02-23T22:37:00+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

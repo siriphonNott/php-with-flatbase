@@ -1,0 +1,6 @@
+{
+    "require": {
+        "flatbase/flatbase": "^0.4.1",
+        "gargron/fileupload": "^1.5"
+    }
+}
