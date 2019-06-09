@@ -31,7 +31,7 @@ See more [flatbase](https://github.com/adamnicholson/flatbase)
 ### Example web
 
 - Home Page (Empty contact)
-![home page](https://github.com/siriphonNott/php-with-flatbase/blob/master/src/img/home-page.jpg)
+![home page](https://github.com/siriphonNott/php-with-flatbase/blob/master/src/img/_home.jpg)
 
 - List (Added contact)
-![list page](https://github.com/siriphonNott/php-with-flatbase/blob/master/src/img/lists.jpg)
+![list page](https://github.com/siriphonNott/php-with-flatbase/blob/master/src/img/_lists.jpg)
